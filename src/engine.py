@@ -45,7 +45,7 @@ def breed(node_root: Node, node_branch: Node):
     return node_root
 
 
-def mutate(nodes: list[Node], p_mutation=.2):
+def mutate(nodes: list[Node], p_mutation=config.P_MUTATE):
     selected_node: Node = random.choice(nodes).clone()
     return crawl(selected_node, p_mutation)
 

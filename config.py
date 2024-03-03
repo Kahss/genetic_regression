@@ -1,0 +1,8 @@
+P_MUTATE = .5
+
+P_BEST = .5
+P_BREED = .25
+P_MUTATE = .25
+
+N_INDIV = 1000
+N_EPOCHS = 100
