@@ -1,3 +1,4 @@
+P_MUTATE_NEW_FACTOR = .0
 P_MUTATE = .5
 
 P_BEST = .5
