@@ -54,7 +54,7 @@ class Node:
         
         if self.node_type == NODE_TYPE.INPUT:
             _, max_dim = input.shape
-            if self.value >= max_dim:
+            if self.value >= max_dim or self.value < 0:
                 self.value %= max_dim
             return input[:, self.value]
 
