@@ -1,6 +1,7 @@
 import numpy as np
 from tqdm import tqdm
 
+import config
 import src.engine as engine
 from src.node import generate_random_tree
 

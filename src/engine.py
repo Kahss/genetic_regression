@@ -1,6 +1,9 @@
 import random
+
 import numpy as np
-from src.node import Node, TWO_ARGUMENTS_NODE, NODE_TYPE
+
+import config
+from src.node import NODE_TYPE, TWO_ARGUMENTS_NODE, Node
 
 
 def rank_nodes(nodes: list[Node], X: np.ndarray, y: np.ndarray, order="ascending"):

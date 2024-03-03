@@ -1,7 +1,9 @@
+import random
 from enum import IntEnum
-from typing import Optional, Union
-import random 
+from typing import Optional
+
 import numpy as np
+
 
 class NODE_TYPE(IntEnum):
     DUMMY = 0
