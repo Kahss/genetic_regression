@@ -10,7 +10,7 @@ N_SAMPLES = 100
 NOISE_FACTOR = 1/100
 
 # Source data
-X = np.random.rand(N_SAMPLES, N_INPUT_DIM)
+X = 5*np.random.rand(N_SAMPLES, N_INPUT_DIM)
 X0 = X[:, 0]
 X1 = X[:, 1]
 y = X0 + 2*X1 + X0 * X1 + NOISE_FACTOR * np.random.rand(N_SAMPLES)
